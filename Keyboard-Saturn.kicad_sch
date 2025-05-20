@@ -5973,6 +5973,18 @@
 		(uuid 93d960b5-6d66-4812-95db-8e11e9839166)
 	)
 	(rectangle
+		(start 182.88 256.54)
+		(end 298.45 281.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a77d3aa4-a03d-474d-93c3-8a3f45b7b1b0)
+	)
+	(rectangle
 		(start 275.59 146.05)
 		(end 297.18 163.83)
 		(stroke
@@ -5995,6 +6007,18 @@
 			(type none)
 		)
 		(uuid b0acedd6-4fda-4466-9706-dbb4440a27ad)
+	)
+	(rectangle
+		(start 43.18 256.54)
+		(end 99.06 281.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba56f491-19ae-46c9-ace7-03f59bb8e254)
 	)
 	(rectangle
 		(start 276.86 223.52)
@@ -6032,7 +6056,7 @@
 		)
 		(uuid f1fbe472-dc10-4a26-b326-0ccc4fbe91a7)
 	)
-	(text "2.75U"
+	(text "2.75U - RSHIFT\n"
 		(exclude_from_sim no)
 		(at 287.274 221.742 0)
 		(effects
@@ -6042,9 +6066,9 @@
 		)
 		(uuid "19d00fbe-b8af-47c1-9edc-a7706da7ef82")
 	)
-	(text "2U\n"
+	(text "2U - BACKSPACE\n\n"
 		(exclude_from_sim no)
-		(at 288.29 144.018 0)
+		(at 286.004 144.018 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6052,7 +6076,7 @@
 		)
 		(uuid "1f9ef656-f582-49fd-93de-df6764e7810e")
 	)
-	(text "1.5U\n"
+	(text "1.5U - \\ |\n"
 		(exclude_from_sim no)
 		(at 287.528 167.386 0)
 		(effects
@@ -6062,7 +6086,7 @@
 		)
 		(uuid "2d4caa84-35a6-4f7e-826d-285f4b05ea55")
 	)
-	(text "1.75U\n"
+	(text "1.75U - CAPS\n"
 		(exclude_from_sim no)
 		(at 53.34 194.31 0)
 		(effects
@@ -6072,7 +6096,7 @@
 		)
 		(uuid "3bada8b4-e131-47cc-89fa-71258aa91925")
 	)
-	(text "7U\n"
+	(text "7U - SPACE\n"
 		(exclude_from_sim no)
 		(at 135.636 255.524 0)
 		(effects
@@ -6102,9 +6126,19 @@
 		)
 		(uuid "8d5a0cce-7f0b-4bf6-b920-89f682375bfe")
 	)
-	(text "2.25U"
+	(text "1.25U\n"
 		(exclude_from_sim no)
-		(at 286.004 196.342 0)
+		(at 72.898 254.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9234b8bd-66a1-48fd-af9b-1d6e03a0f254")
+	)
+	(text "2.25U - ENTER"
+		(exclude_from_sim no)
+		(at 287.782 196.342 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6122,7 +6156,7 @@
 		)
 		(uuid "bec9c096-f364-46b1-bd74-cbb31bf50dbd")
 	)
-	(text "2.25U"
+	(text "2.25U - LSHIFT\n"
 		(exclude_from_sim no)
 		(at 53.34 219.71 0)
 		(effects
@@ -6132,15 +6166,25 @@
 		)
 		(uuid "db69ce1c-d7ea-448d-9aa9-891b85f9f396")
 	)
-	(text "1.5U\n"
+	(text "1.5U - TAB\n\n"
 		(exclude_from_sim no)
-		(at 53.34 167.64 0)
+		(at 53.594 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "f939b071-9f9e-4cb1-ad12-5602721212cb")
+	)
+	(text "1.25U\n"
+		(exclude_from_sim no)
+		(at 240.792 254.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb7c169e-c348-42bd-89a3-836b3d8370c4")
 	)
 	(global_label "SDA"
 		(shape input)
@@ -7692,7 +7736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03cee89d-fed8-4748-92ad-4b4172f88dc8")
-		(property "Reference" "caps1"
+		(property "Reference" "SW42"
 			(at 52.07 199.39 0)
 			(effects
 				(font
@@ -7744,7 +7788,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "caps1")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -7848,7 +7892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0432a5d4-156d-4913-b76d-5a68a58da597")
-		(property "Reference" "SW19"
+		(property "Reference" "SW21"
 			(at 173.99 147.32 0)
 			(effects
 				(font
@@ -7900,7 +7944,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW19")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7916,7 +7960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "070fe607-9bbd-4207-8b3c-43a990fc074b")
-		(property "Reference" "D66"
+		(property "Reference" "D67"
 			(at 59.69 271.7799 90)
 			(effects
 				(font
@@ -7988,7 +8032,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "D66")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -8004,7 +8048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086871a9-f719-4699-86e9-2033099d6b53")
-		(property "Reference" "SW39"
+		(property "Reference" "SW46"
 			(at 121.92 199.39 0)
 			(effects
 				(font
@@ -8056,7 +8100,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW39")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -8226,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c5890e8-21da-4e28-8d16-2e241497bf1c")
-		(property "Reference" "SW74"
+		(property "Reference" "SW89"
 			(at 384.81 224.79 0)
 			(effects
 				(font
@@ -8278,7 +8322,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW74")
+					(reference "SW89")
 					(unit 1)
 				)
 			)
@@ -8294,7 +8338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c85c5a0-c1f9-4802-9090-f4835a621f17")
-		(property "Reference" "SW79"
+		(property "Reference" "SW98"
 			(at 468.63 172.72 0)
 			(effects
 				(font
@@ -8346,7 +8390,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW79")
+					(reference "SW98")
 					(unit 1)
 				)
 			)
@@ -8538,7 +8582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f6c4dec-8249-4f12-b246-336f63cd0902")
-		(property "Reference" "`4"
+		(property "Reference" "SW14"
 			(at 52.07 147.32 0)
 			(effects
 				(font
@@ -8590,7 +8634,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "`4")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -8606,7 +8650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1230ccd3-519b-4d79-8706-0f7440791dc3")
-		(property "Reference" "SW78"
+		(property "Reference" "SW97"
 			(at 468.63 147.32 0)
 			(effects
 				(font
@@ -8658,7 +8702,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW78")
+					(reference "SW97")
 					(unit 1)
 				)
 			)
@@ -8741,7 +8785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1618ebca-0bc4-4a42-871f-85f4e6fdd08e")
-		(property "Reference" "SW54"
+		(property "Reference" "SW63"
 			(at 191.77 224.79 0)
 			(effects
 				(font
@@ -8793,7 +8837,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW54")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -9121,7 +9165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e81ca32-0b4e-4843-8bea-0dd61177f389")
-		(property "Reference" "SW18"
+		(property "Reference" "SW20"
 			(at 156.21 147.32 0)
 			(effects
 				(font
@@ -9173,7 +9217,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW18")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -9610,7 +9654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25cde22a-25c6-4f21-9d32-2f3008ec37f2")
-		(property "Reference" "SW61"
+		(property "Reference" "SW71"
 			(at 191.77 261.62 0)
 			(effects
 				(font
@@ -9662,7 +9706,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW61")
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "260b92af-f956-4b08-971f-7b0f09dc53ab")
-		(property "Reference" "SW45"
+		(property "Reference" "SW52"
 			(at 226.06 199.39 0)
 			(effects
 				(font
@@ -9730,7 +9774,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW45")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -9833,7 +9877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "281d9174-da27-4cea-90ee-707a792b8686")
-		(property "Reference" "SW41"
+		(property "Reference" "SW48"
 			(at 156.21 199.39 0)
 			(effects
 				(font
@@ -9885,7 +9929,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW41")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -10409,7 +10453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd988dd-66fe-41dd-85d5-4e024bc46549")
-		(property "Reference" "SW57"
+		(property "Reference" "SW67"
 			(at 52.07 261.62 0)
 			(effects
 				(font
@@ -10461,7 +10505,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW57")
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3626b843-ba32-4abe-b336-61799b143ee7")
-		(property "Reference" "Lshift1"
+		(property "Reference" "SW55"
 			(at 52.07 224.79 0)
 			(effects
 				(font
@@ -10529,7 +10573,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "Lshift1")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -10611,7 +10655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d89af6-2f36-4f41-9cb0-27145175d62d")
-		(property "Reference" "F7"
+		(property "Reference" "SW84"
 			(at 433.07 115.57 0)
 			(effects
 				(font
@@ -10663,7 +10707,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F7")
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -10747,7 +10791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bfa9d1-b68b-4905-abd2-de590e377eea")
-		(property "Reference" "SW68"
+		(property "Reference" "SW83"
 			(at 384.81 172.72 0)
 			(effects
 				(font
@@ -10799,7 +10843,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW68")
+					(reference "SW83")
 					(unit 1)
 				)
 			)
@@ -10815,7 +10859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ef81dc-e886-42ae-a213-e52fe022a853")
-		(property "Reference" "SW70"
+		(property "Reference" "SW85"
 			(at 349.25 224.79 0)
 			(effects
 				(font
@@ -10867,7 +10911,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW70")
+					(reference "SW85")
 					(unit 1)
 				)
 			)
@@ -11059,7 +11103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c6f9315-089b-4f60-bf6a-ca69e8c0ba4a")
-		(property "Reference" "SW75"
+		(property "Reference" "SW94"
 			(at 450.85 172.72 0)
 			(effects
 				(font
@@ -11111,7 +11155,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW75")
+					(reference "SW94")
 					(unit 1)
 				)
 			)
@@ -11127,7 +11171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d470305-cc39-4e87-8b90-01607d58c46d")
-		(property "Reference" "SW49"
+		(property "Reference" "SW58"
 			(at 104.14 224.79 0)
 			(effects
 				(font
@@ -11179,7 +11223,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW49")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -11262,7 +11306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40865555-0409-4631-ba7a-852409291eee")
-		(property "Reference" "SW59"
+		(property "Reference" "SW69"
 			(at 86.36 261.62 0)
 			(effects
 				(font
@@ -11314,7 +11358,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW59")
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cbdff5-0d3f-4891-a846-3dd1a5af8032")
-		(property "Reference" "SW25"
+		(property "Reference" "SW75"
 			(at 349.25 115.57 0)
 			(effects
 				(font
@@ -11382,7 +11426,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW25")
+					(reference "SW75")
 					(unit 1)
 				)
 			)
@@ -11485,7 +11529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42d8befb-0518-4bcd-96d4-9acffdc303d3")
-		(property "Reference" "D67"
+		(property "Reference" "D66"
 			(at 293.37 234.9499 90)
 			(effects
 				(font
@@ -11557,7 +11601,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "D67")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -11729,7 +11773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44d9ed76-c1d6-448f-92a5-a3c5fc5c4d88")
-		(property "Reference" "SW3"
+		(property "Reference" "SW29"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -11781,7 +11825,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW3")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -11885,7 +11929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46606708-b76b-4320-83bd-5d4643e11772")
-		(property "Reference" "\\|1"
+		(property "Reference" "SW41"
 			(at 285.75 172.72 0)
 			(effects
 				(font
@@ -11937,7 +11981,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "\\|1")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -11953,7 +11997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4760199f-f1b9-4c68-93db-9898d73e0ece")
-		(property "Reference" "F6"
+		(property "Reference" "SW68"
 			(at 69.85 261.62 0)
 			(effects
 				(font
@@ -12005,7 +12049,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F6")
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -12177,7 +12221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d041f3-78f5-4e96-b5dd-aebfe33bd935")
-		(property "Reference" "SW42"
+		(property "Reference" "SW49"
 			(at 173.99 199.39 0)
 			(effects
 				(font
@@ -12229,7 +12273,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW42")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -12861,7 +12905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c2c9953-1ab4-4796-bdb1-2d78067ceaf6")
-		(property "Reference" "SW32"
+		(property "Reference" "SW37"
 			(at 209.55 172.72 0)
 			(effects
 				(font
@@ -12913,7 +12957,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW32")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -13349,7 +13393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50c60d31-4eba-4041-9a3d-e9195c4b2e5d")
-		(property "Reference" "F10"
+		(property "Reference" "SW91"
 			(at 433.07 224.79 0)
 			(effects
 				(font
@@ -13401,7 +13445,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F10")
+					(reference "SW91")
 					(unit 1)
 				)
 			)
@@ -13417,7 +13461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51533e6f-f149-4742-b5d7-1e653f220f3f")
-		(property "Reference" "F5"
+		(property "Reference" "SW57"
 			(at 86.36 224.79 0)
 			(effects
 				(font
@@ -13469,7 +13513,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F5")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -13550,7 +13594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52324bd4-5290-4a54-a875-d62d1049f848")
-		(property "Reference" "SW63"
+		(property "Reference" "SW73"
 			(at 226.06 261.62 0)
 			(effects
 				(font
@@ -13602,7 +13646,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW63")
+					(reference "SW73")
 					(unit 1)
 				)
 			)
@@ -13618,7 +13662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "529e8b0a-de7c-4735-a30a-1048c83c10b9")
-		(property "Reference" "SW31"
+		(property "Reference" "SW36"
 			(at 191.77 172.72 0)
 			(effects
 				(font
@@ -13670,7 +13714,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW31")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -13774,7 +13818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "561e5605-c275-44e9-9a72-68d2287159d6")
-		(property "Reference" "SW73"
+		(property "Reference" "SW93"
 			(at 450.85 147.32 0)
 			(effects
 				(font
@@ -13826,7 +13870,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW73")
+					(reference "SW93")
 					(unit 1)
 				)
 			)
@@ -13842,7 +13886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5637e74a-71b4-4a7e-acc6-92404627bb35")
-		(property "Reference" "SW71"
+		(property "Reference" "SW86"
 			(at 367.03 199.39 0)
 			(effects
 				(font
@@ -13894,7 +13938,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW71")
+					(reference "SW86")
 					(unit 1)
 				)
 			)
@@ -13910,7 +13954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "573ed9a4-c0c1-43bd-b273-5a916b35284f")
-		(property "Reference" "SW47"
+		(property "Reference" "SW77"
 			(at 349.25 172.72 0)
 			(effects
 				(font
@@ -13962,7 +14006,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW47")
+					(reference "SW77")
 					(unit 1)
 				)
 			)
@@ -13978,7 +14022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574360cb-b803-4175-9219-ebb703203759")
-		(property "Reference" "SW62"
+		(property "Reference" "SW72"
 			(at 209.55 261.62 0)
 			(effects
 				(font
@@ -14030,7 +14074,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW62")
+					(reference "SW72")
 					(unit 1)
 				)
 			)
@@ -14046,7 +14090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "575ea15b-5012-45a7-b080-c54c6b5b3063")
-		(property "Reference" "SW53"
+		(property "Reference" "SW62"
 			(at 173.99 224.79 0)
 			(effects
 				(font
@@ -14098,7 +14142,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW53")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -14446,7 +14490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c52f839-1ab1-4088-a5ad-35b429e22634")
-		(property "Reference" "SW26"
+		(property "Reference" "SW31"
 			(at 104.14 172.72 0)
 			(effects
 				(font
@@ -14498,7 +14542,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW26")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa3177e-8da7-4207-853d-396b66a305b3")
-		(property "Reference" "SW29"
+		(property "Reference" "SW34"
 			(at 156.21 172.72 0)
 			(effects
 				(font
@@ -14566,7 +14610,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW29")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -14896,7 +14940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65bcb89f-ac39-42ba-aff0-ccd48862aae5")
-		(property "Reference" "SW72"
+		(property "Reference" "SW87"
 			(at 367.03 224.79 0)
 			(effects
 				(font
@@ -14948,7 +14992,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW72")
+					(reference "SW87")
 					(unit 1)
 				)
 			)
@@ -15693,7 +15737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71735819-6b74-461a-9c4a-27e1cac308f9")
-		(property "Reference" "F8"
+		(property "Reference" "SW88"
 			(at 433.07 147.32 0)
 			(effects
 				(font
@@ -15745,7 +15789,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F8")
+					(reference "SW88")
 					(unit 1)
 				)
 			)
@@ -15761,7 +15805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73757ca8-9ad0-469c-9805-df2d3979b777")
-		(property "Reference" "SW83"
+		(property "Reference" "SW102"
 			(at 486.41 147.32 0)
 			(effects
 				(font
@@ -15813,7 +15857,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW83")
+					(reference "SW102")
 					(unit 1)
 				)
 			)
@@ -16269,7 +16313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a6ee329-e2f9-47a0-af2c-25f0dfcb5ee5")
-		(property "Reference" "SW30"
+		(property "Reference" "SW35"
 			(at 173.99 172.72 0)
 			(effects
 				(font
@@ -16321,7 +16365,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW30")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -16337,7 +16381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8ace47-66f6-4139-ad01-246be76e3588")
-		(property "Reference" "TAb1"
+		(property "Reference" "SW28"
 			(at 52.07 172.72 0)
 			(effects
 				(font
@@ -16389,7 +16433,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "TAb1")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -16405,7 +16449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d611c13-949a-4473-9d67-23b2e67d4b70")
-		(property "Reference" "F4"
+		(property "Reference" "SW44"
 			(at 86.36 199.39 0)
 			(effects
 				(font
@@ -16457,7 +16501,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F4")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -16473,7 +16517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dd0dad0-3b7d-40b4-abe5-25bc2d15aefc")
-		(property "Reference" "SW55"
+		(property "Reference" "SW64"
 			(at 209.55 224.79 0)
 			(effects
 				(font
@@ -16525,7 +16569,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW55")
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -16541,7 +16585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83597cc6-19cc-4ecb-9901-e2fb2920736e")
-		(property "Reference" "SW28"
+		(property "Reference" "SW33"
 			(at 139.7 172.72 0)
 			(effects
 				(font
@@ -16593,7 +16637,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW28")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
@@ -16609,7 +16653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83c20b77-1fe6-4821-a165-940fae18ed9e")
-		(property "Reference" "SW20"
+		(property "Reference" "SW22"
 			(at 191.77 147.32 0)
 			(effects
 				(font
@@ -16661,7 +16705,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW20")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -16832,7 +16876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86cef66a-2ead-47b3-9243-a9d19d83fbf0")
-		(property "Reference" "SW21"
+		(property "Reference" "SW23"
 			(at 209.55 147.32 0)
 			(effects
 				(font
@@ -16884,7 +16928,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW21")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -16900,7 +16944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877be023-b1da-47c2-a228-e60e81aa60c8")
-		(property "Reference" "SW40"
+		(property "Reference" "SW47"
 			(at 139.7 199.39 0)
 			(effects
 				(font
@@ -16952,7 +16996,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW40")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -17408,7 +17452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91109b8c-e5eb-4c46-bce9-70ce522548e7")
-		(property "Reference" "SW65"
+		(property "Reference" "SW0"
 			(at 367.03 172.72 0)
 			(effects
 				(font
@@ -17460,7 +17504,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW65")
+					(reference "SW0")
 					(unit 1)
 				)
 			)
@@ -17476,7 +17520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91e98c87-8713-49c3-8aef-b2edf579bf97")
-		(property "Reference" "backspace1"
+		(property "Reference" "SW27"
 			(at 285.75 147.32 0)
 			(effects
 				(font
@@ -17528,7 +17572,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "backspace1")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -17632,7 +17676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9341b6ca-9793-4607-a1c8-278485213b2f")
-		(property "Reference" "SW69"
+		(property "Reference" "SW92"
 			(at 450.85 115.57 0)
 			(effects
 				(font
@@ -17684,7 +17728,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW69")
+					(reference "SW92")
 					(unit 1)
 				)
 			)
@@ -17700,7 +17744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934e637a-144d-496d-b98b-38762847ce54")
-		(property "Reference" "SW51"
+		(property "Reference" "SW60"
 			(at 139.7 224.79 0)
 			(effects
 				(font
@@ -17752,7 +17796,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW51")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -17768,7 +17812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96930751-ec11-41cf-8675-1027bcd53fa3")
-		(property "Reference" "Num2"
+		(property "Reference" "SW103"
 			(at 450.85 199.39 0)
 			(effects
 				(font
@@ -17820,7 +17864,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "Num2")
+					(reference "SW103")
 					(unit 1)
 				)
 			)
@@ -17994,7 +18038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "997f975b-1650-4c56-bf87-3a5c53be75f9")
-		(property "Reference" "NumEnter1"
+		(property "Reference" "SW95"
 			(at 486.41 199.39 0)
 			(effects
 				(font
@@ -18046,7 +18090,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "NumEnter1")
+					(reference "SW95")
 					(unit 1)
 				)
 			)
@@ -18062,7 +18106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99f33662-78da-4991-9a05-8ad901afc584")
-		(property "Reference" "SW16"
+		(property "Reference" "SW18"
 			(at 121.92 147.32 0)
 			(effects
 				(font
@@ -18114,7 +18158,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW16")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -18373,7 +18417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0f6196c-8fe2-49d0-b5bd-20f1b142515f")
-		(property "Reference" "enter1"
+		(property "Reference" "SW54"
 			(at 285.75 199.39 0)
 			(effects
 				(font
@@ -18425,7 +18469,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "enter1")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -18529,7 +18573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a11c3c13-2db1-4821-9076-9ba10f441922")
-		(property "Reference" "SW46"
+		(property "Reference" "SW53"
 			(at 243.84 199.39 0)
 			(effects
 				(font
@@ -18581,7 +18625,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW46")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -18597,7 +18641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a203767f-12b9-40bd-8e7c-35c8b9d9efba")
-		(property "Reference" "SW52"
+		(property "Reference" "SW61"
 			(at 156.21 224.79 0)
 			(effects
 				(font
@@ -18649,7 +18693,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW52")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -18665,7 +18709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2185a28-ce4c-40de-aeb0-495f97d11e0b")
-		(property "Reference" "SW34"
+		(property "Reference" "SW39"
 			(at 243.84 172.72 0)
 			(effects
 				(font
@@ -18717,7 +18761,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW34")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -18997,7 +19041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab55056b-e119-4be6-b19d-382d8f5e815f")
-		(property "Reference" "SW17"
+		(property "Reference" "SW19"
 			(at 139.7 147.32 0)
 			(effects
 				(font
@@ -19049,7 +19093,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW17")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -19219,7 +19263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abaf7ccb-9370-4038-9ffd-785fbc07cce9")
-		(property "Reference" "SW81"
+		(property "Reference" "SW100"
 			(at 486.41 115.57 0)
 			(effects
 				(font
@@ -19271,7 +19315,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW81")
+					(reference "SW100")
 					(unit 1)
 				)
 			)
@@ -19287,7 +19331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2e472f-2204-49d3-ae1c-194995cfc669")
-		(property "Reference" "SW84"
+		(property "Reference" "SW104"
 			(at 468.63 199.39 0)
 			(effects
 				(font
@@ -19339,7 +19383,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW84")
+					(reference "SW104")
 					(unit 1)
 				)
 			)
@@ -19355,7 +19399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac8dc036-7424-4505-b0a0-4f8c13dc17f6")
-		(property "Reference" "SW33"
+		(property "Reference" "SW38"
 			(at 226.06 172.72 0)
 			(effects
 				(font
@@ -19407,7 +19451,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW33")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -19511,7 +19555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b17a46d3-b7e8-472e-a949-47b3f06a2cd3")
-		(property "Reference" "SW24"
+		(property "Reference" "SW26"
 			(at 261.62 147.32 0)
 			(effects
 				(font
@@ -19563,7 +19607,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW24")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -19755,7 +19799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3481923-d93b-4aab-9ece-efa483d97df6")
-		(property "Reference" "SW80"
+		(property "Reference" "SW99"
 			(at 468.63 224.79 0)
 			(effects
 				(font
@@ -19807,7 +19851,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW80")
+					(reference "SW99")
 					(unit 1)
 				)
 			)
@@ -19981,7 +20025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c2126a-2199-47b0-aac0-a779118b76a9")
-		(property "Reference" "SW58"
+		(property "Reference" "SW78"
 			(at 367.03 115.57 0)
 			(effects
 				(font
@@ -20033,7 +20077,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW58")
+					(reference "SW78")
 					(unit 1)
 				)
 			)
@@ -20049,7 +20093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b77b7a67-9b15-4f1c-af8d-efa2a36df97b")
-		(property "Reference" "SW23"
+		(property "Reference" "SW25"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -20101,7 +20145,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW23")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -20117,7 +20161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b892e78b-aacb-4bfa-bb01-24f36b8b6ecd")
-		(property "Reference" "SW43"
+		(property "Reference" "SW50"
 			(at 191.77 199.39 0)
 			(effects
 				(font
@@ -20169,7 +20213,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW43")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -20464,7 +20508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6fcbe3-cff6-47c3-b0ca-6a20f6d9df96")
-		(property "Reference" "SW50"
+		(property "Reference" "SW59"
 			(at 121.92 224.79 0)
 			(effects
 				(font
@@ -20516,7 +20560,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW50")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -20620,7 +20664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc95fd4c-ee1c-4b67-8321-62cd1090f557")
-		(property "Reference" "SW22"
+		(property "Reference" "SW24"
 			(at 226.06 147.32 0)
 			(effects
 				(font
@@ -20672,7 +20716,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW22")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -20776,7 +20820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed64ff3-f0b3-4051-9113-f3f32f957597")
-		(property "Reference" "F1"
+		(property "Reference" "SW16"
 			(at 86.36 147.32 0)
 			(effects
 				(font
@@ -20828,7 +20872,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F1")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -20844,7 +20888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf463b21-d129-4ea1-8f1e-1cbf965cfd4d")
-		(property "Reference" "Space1"
+		(property "Reference" "SW70"
 			(at 134.62 261.62 0)
 			(effects
 				(font
@@ -20896,7 +20940,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "Space1")
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -20912,7 +20956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07af3be-3e98-4daa-a2ff-8823dd9b1174")
-		(property "Reference" "SW67"
+		(property "Reference" "SW82"
 			(at 384.81 147.32 0)
 			(effects
 				(font
@@ -20964,7 +21008,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW67")
+					(reference "SW82")
 					(unit 1)
 				)
 			)
@@ -20980,7 +21024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c38e0912-1d3e-49cf-a79e-2c7776dbab52")
-		(property "Reference" "SW64"
+		(property "Reference" "SW74"
 			(at 285.75 261.62 0)
 			(effects
 				(font
@@ -20988,7 +21032,7 @@
 				)
 			)
 		)
-		(property "Value" "Rctrl"
+		(property "Value" "SW_Push"
 			(at 285.75 264.16 0)
 			(effects
 				(font
@@ -21032,7 +21076,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW64")
+					(reference "SW74")
 					(unit 1)
 				)
 			)
@@ -21224,7 +21268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8afb2ee-8a01-4463-9407-2caaed868834")
-		(property "Reference" "SW66"
+		(property "Reference" "SW81"
 			(at 384.81 115.57 0)
 			(effects
 				(font
@@ -21276,7 +21320,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW66")
+					(reference "SW81")
 					(unit 1)
 				)
 			)
@@ -21380,7 +21424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd1b9486-2d4f-411d-84d6-3148aff417cb")
-		(property "Reference" "Num1"
+		(property "Reference" "SW101"
 			(at 433.07 199.39 0)
 			(effects
 				(font
@@ -21432,7 +21476,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "Num1")
+					(reference "SW101")
 					(unit 1)
 				)
 			)
@@ -21536,7 +21580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cefebaca-c72c-4bcb-9a47-8499f2e1d57a")
-		(property "Reference" "SW77"
+		(property "Reference" "SW96"
 			(at 468.63 115.57 0)
 			(effects
 				(font
@@ -21588,7 +21632,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW77")
+					(reference "SW96")
 					(unit 1)
 				)
 			)
@@ -21604,7 +21648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf809e05-4200-4f7b-8b31-bb34138d43b8")
-		(property "Reference" "F3"
+		(property "Reference" "SW30"
 			(at 86.36 172.72 0)
 			(effects
 				(font
@@ -21656,7 +21700,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F3")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -21672,7 +21716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0efbd25-521f-438b-9fc3-34f882518782")
-		(property "Reference" "SW14"
+		(property "Reference" "SW15"
 			(at 69.85 147.32 0)
 			(effects
 				(font
@@ -21724,7 +21768,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW14")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -22307,7 +22351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6fda032-0e69-42c0-829c-4414fb4f1b0f")
-		(property "Reference" "SW56"
+		(property "Reference" "SW65"
 			(at 226.06 224.79 0)
 			(effects
 				(font
@@ -22359,7 +22403,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW56")
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -22375,7 +22419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7613661-28e0-4bfd-80ee-3d9dcc29928e")
-		(property "Reference" "Rshift1"
+		(property "Reference" "SW66"
 			(at 285.75 224.79 0)
 			(effects
 				(font
@@ -22427,7 +22471,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "Rshift1")
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -22531,7 +22575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9fcb192-65c6-4b7f-be00-01865e52e6d2")
-		(property "Reference" "SW27"
+		(property "Reference" "SW32"
 			(at 121.92 172.72 0)
 			(effects
 				(font
@@ -22583,7 +22627,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW27")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -22599,7 +22643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db8573b0-3a3a-45ed-9925-d4e1e96769e0")
-		(property "Reference" "SW36"
+		(property "Reference" "SW76"
 			(at 349.25 147.32 0)
 			(effects
 				(font
@@ -22651,7 +22695,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW36")
+					(reference "SW76")
 					(unit 1)
 				)
 			)
@@ -22931,7 +22975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e10c8406-237c-48d3-a824-fb6cad36e514")
-		(property "Reference" "SW60"
+		(property "Reference" "SW79"
 			(at 367.03 147.32 0)
 			(effects
 				(font
@@ -22983,7 +23027,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW60")
+					(reference "SW79")
 					(unit 1)
 				)
 			)
@@ -23337,7 +23381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4edfdf1-4661-433f-93d7-e1b22a171c7a")
-		(property "Reference" "SW44"
+		(property "Reference" "SW51"
 			(at 209.55 199.39 0)
 			(effects
 				(font
@@ -23389,7 +23433,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW44")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -24089,7 +24133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18f1505-dedd-4146-a5d9-87b859466e75")
-		(property "Reference" "SW37"
+		(property "Reference" "SW43"
 			(at 69.85 199.39 0)
 			(effects
 				(font
@@ -24141,7 +24185,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW37")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -24157,7 +24201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f209758e-0aff-428c-aaf5-1c9eda97668c")
-		(property "Reference" "F9"
+		(property "Reference" "SW90"
 			(at 433.07 172.72 0)
 			(effects
 				(font
@@ -24209,7 +24253,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F9")
+					(reference "SW90")
 					(unit 1)
 				)
 			)
@@ -24225,7 +24269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4c52243-26de-4c30-9f9e-93239ff94a35")
-		(property "Reference" "SW48"
+		(property "Reference" "SW56"
 			(at 69.85 224.79 0)
 			(effects
 				(font
@@ -24277,7 +24321,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW48")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -24293,7 +24337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5928c57-c193-4a20-88db-930c0f104034")
-		(property "Reference" "SW15"
+		(property "Reference" "SW17"
 			(at 104.14 147.32 0)
 			(effects
 				(font
@@ -24345,7 +24389,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW15")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -24361,7 +24405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7b27306-3884-4e57-b6b7-11914a63f7a6")
-		(property "Reference" "SW35"
+		(property "Reference" "SW40"
 			(at 261.62 172.72 0)
 			(effects
 				(font
@@ -24413,7 +24457,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW35")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -24605,7 +24649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc434fdf-3a07-4218-ad7e-9ab6c6790885")
-		(property "Reference" "SW38"
+		(property "Reference" "SW45"
 			(at 104.14 199.39 0)
 			(effects
 				(font
@@ -24657,7 +24701,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW38")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
