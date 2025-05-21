@@ -56342,7 +56342,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 0 21 360)
+			(at 0 21 0)
 			(layer "B.SilkS")
 			(uuid "312fc0a6-974c-412c-81f2-6ccf61aad4eb")
 			(effects
@@ -56462,7 +56462,7 @@
 			)
 		)
 		(fp_text user "SWDIO"
-			(at 2.54 20.25 360)
+			(at 2.54 20.25 0)
 			(layer "B.SilkS")
 			(uuid "607af4a7-30ec-46a7-acc2-3027a8114ac7")
 			(effects
@@ -56498,7 +56498,7 @@
 			)
 		)
 		(fp_text user "SWCLK"
-			(at -2.54 20.25 360)
+			(at -2.54 20.25 0)
 			(layer "B.SilkS")
 			(uuid "79aa5503-18c2-4707-b948-531ee7d2e43a")
 			(effects
