@@ -1,9 +1,10 @@
-**Total time spent thus far: 32h**
 ---
 title: "Keyboard Saturn"
 author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
 ---
+
+**Total time spent thus far: 32h**
 
 # January: Research 
 
