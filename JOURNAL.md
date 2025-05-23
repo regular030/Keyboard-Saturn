@@ -1,3 +1,4 @@
+**Total time spent thus far: 32h**
 ---
 title: "Keyboard Saturn"
 author: "Kunshpreet"
@@ -40,10 +41,10 @@ description: "Simple Keyboard with OLED screen"
 (add pic of standoffs + pic of chassis parts) 
 **Total time spent: 8h**
 
-# May 22: Creating BOM
+# May 22-23: Creating BOM
 
 - BOM done, please check read me
-**Total time spent: 2h**
+**Total time spent: 4h**
 
 # May xx - xx: Firmware 
 
