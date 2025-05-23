@@ -1,5 +1,6 @@
 **Keyboard Saturn, A Simple Keyboard With An OLED Display**
 
+![image](https://github.com/user-attachments/assets/6df31256-2c50-42c2-93f2-c2fba238719a)
 ![image](https://github.com/user-attachments/assets/40f2bb41-a31f-4db6-9303-55106f4096e9)
 ![image](https://github.com/user-attachments/assets/f23ca1d3-1136-4d6a-9a44-25fd33c32397)
 
