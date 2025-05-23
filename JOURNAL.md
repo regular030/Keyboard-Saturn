@@ -40,8 +40,12 @@ description: "Simple Keyboard with OLED screen"
 (add pic of standoffs + pic of chassis parts) 
 **Total time spent: 8h**
 
-# May 22 - xx: Firmware 
+# May 22: Creating BOM
 
-- started making the firmware
+- BOM done, please check read me
+**Total time spent: 2h**
 
+# May xx - xx: Firmware 
+
+- Will be started after parts have been ordered
 **Total time spent: 0h**
