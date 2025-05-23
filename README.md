@@ -22,6 +22,7 @@ chassis
 <br>
 Kicad
 <br>
+
 - All the KiCad 8.0.5 files for the project 
 
 |Part Name                          |QTY                                                                                               |Price Per|Link|Notes                            |
