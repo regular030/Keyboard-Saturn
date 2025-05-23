@@ -16,3 +16,9 @@
 |M Screws pack of 250               |1                                                                                                 |US $2.66 |here|Cheapest I could find            |
 |                                   |                                                                                                  |         |    |                                 |
 |Total:                             |US $46.32 (Aliexpess) + $45.78 (PCB + top case) = USD $92.1 = $93 (prices flucates on aliexpress) |         |    |                                 |
+
+**TODO:**
+- Create art for displays
+  - Something for Spotify
+  - Something for caps lock, num lock, etc.
+ - Create firmware
