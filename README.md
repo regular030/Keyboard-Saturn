@@ -5,10 +5,10 @@
 ![image](https://github.com/user-attachments/assets/f23ca1d3-1136-4d6a-9a44-25fd33c32397)
 
 **Files**
-
 <br>
 chassis
 <br>
+
 - .Step files for the chassis + PCB
   - KeyboardL.step
       - Bottom left side of keyboard
