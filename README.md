@@ -21,6 +21,7 @@ chassis
       - The inserts for the keyboard to connect KeyboardM, KeyboardL and KeyboardR, please use super glue to make sure they are in, then super glue the chassis together
 <br>
 Kicad
+<br>
 - All the KiCad 8.0.5 files for the project 
 
 |Part Name                          |QTY                                                                                               |Price Per|Link|Notes                            |
