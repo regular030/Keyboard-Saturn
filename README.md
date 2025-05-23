@@ -18,7 +18,8 @@ chassis
       - Top side of the keyboard
       - Use M2 screws to screw it into the bottom parts (screw holes in top and bottom in the middle, left and right sections) 
   - insert-keyboard v1.step
-      - The inserts for the keyboard to connect KeyboardM, KeyboardL and KeyboardR, please use super glue to make sure they are in, then super glue the chassis together<br>
+      - The inserts for the keyboard to connect KeyboardM, KeyboardL and KeyboardR, please use super glue to make sure they are in, then super glue the chassis together
+<br>
 kicad
 <br>
 
