@@ -52,7 +52,13 @@ description: "Simple Keyboard with OLED screen"
 - Readme updated
 **Total time spent: 2h**
 
-# May xx - xx: Firmware 
+# May 23 - xx: Firmware 
 
-- Will be started after parts have been ordered
-**Total time spent: 0h**
+- Started making firmware
+  - took too long setting up QMK (like 5 hours in one day) 
+- Found out the MCP23017_SO is way too slow since it's using the I2C connection protocol
+  - Instead im using the SN74HC165N, which uses the spi protocal which is 100x faster
+  - replaced it in the PCB
+- made the keyboard layout for my keyboard in QMK
+- TODO: make custom matrix in order to read from the SN74HC165N
+**Total time spent: 7h**
