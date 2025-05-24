@@ -4,7 +4,7 @@ author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
 ---
 
-**Total time spent thus far: 32h**
+**Total time spent thus far: 34h**
 
 # January: Research 
 
@@ -46,6 +46,11 @@ description: "Simple Keyboard with OLED screen"
 
 - BOM done, please check read me
 **Total time spent: 4h**
+
+# May 23: Updating Readme and other things
+
+- Readme updated
+**Total time spent: 2h**
 
 # May xx - xx: Firmware 
 
