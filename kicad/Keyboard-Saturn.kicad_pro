@@ -469,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Keyboard-Saturn.step",
+      "step": "../chassis/Keyboard-Saturn.step",
       "svg": "",
       "vrml": ""
     },
