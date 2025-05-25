@@ -8,11 +8,11 @@ description: "Simple Keyboard with OLED screen"
 
 # January: Research 
 
-- Started looking at how to make my keyboard (looking at yt videos, etc) 
+- Started looking at how to make my keyboard (looking at YouTube videos, etc) 
 - Created a plan
   - Make the keyboard a 100% layout
   - Add an OLED screen to display extra info 
-- Started thinking about what components to use (what type of switches ex. red, brown, blue, etc.)
+- Started thinking about what components to use (what type of switches,e.g., red, brown, blue, etc.)
 - Started looking at the pinout of the Pi Pico (my microcontroller)
 
 **Total time spent: 5h**
@@ -44,7 +44,7 @@ description: "Simple Keyboard with OLED screen"
 
 # May 22-23: Creating BOM
 
-- BOM done, please check read me
+- BOM done, please check the read me
 **Total time spent: 4h**
 
 # May 23: Updating Readme and other things
@@ -60,5 +60,5 @@ description: "Simple Keyboard with OLED screen"
   - Instead im using the SN74HC165N, which uses the spi protocal which is 100x faster
   - replaced it in the PCB
 - made the keyboard layout for my keyboard in QMK
-- TODO: make custom matrix in order to read from the SN74HC165N
+- TODO: make a custom matrix to read from the SN74HC165N
 **Total time spent: 7h**

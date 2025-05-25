@@ -27,21 +27,8 @@ kicad
 
 - All the KiCad 8.0.5 files for the project 
 
-|Part Name                          |QTY                                                                                               |Price Per|Link (please look at BOM)|Notes                            |
-|-----------------------------------|--------------------------------------------------------------------------------------------------|---------|-------------------------|---------------------------------|
-|Raspberry Pi Pico (U1)             |1                                                                                                 |US $2.08 ||                                 |
-|MCP23017_SO (U2)                   |2                                                                                                 |US $1.36 ||buying one more Incase I screw up|
-|OLED 128x32 (J1)                   |1                                                                                                 |US $0.99 ||                                 |
-|Resistor 2kohms (R1-R4) pack of 100|1                                                                                                 |US $1.67 ||lowest # I can get               |
-|Diode IN4148 (D1-D104)  pack of 100|2                                                                                                 |US $1.96 ||                                 |
-|SW_Push (SW1-SW104)                |110                                                                                               |US $18.13||                                 |
-|Keyboard Keycaps pack of 126       |1                                                                                                 |US $7.55 ||                                 |
-|Solder Wire Desoldering            |1                                                                                                 |US $2.36 ||                                 |
-|PCB from JLCPCB                    |5                                                                                                 |US $31.00|    |with tax + shipping              |
-|3D printed Case for JLCPCB         |1                                                                                                 |US $14.78|    |Top only                         |
-|M Screws pack of 250               |1                                                                                                 |US $2.66 ||Cheapest I could find            |
-|                                   |                                                                                                  |         |    |                                 |
-|Total:                             |US $46.32 (Aliexpess) + $45.78 (PCB + top case) = USD $92.1 = $93 (prices flucates on aliexpress) |         |    |                                 |
+**BOM:**
+https://docs.google.com/spreadsheets/d/1oLEcZ3zztSK3hqa6-qvamrNF2S6u_cLABAHxks2xx3M/edit?usp=sharing
 
 **TODO:**
 - Create art for displays
