@@ -34,4 +34,3 @@ https://docs.google.com/spreadsheets/d/1oLEcZ3zztSK3hqa6-qvamrNF2S6u_cLABAHxks2x
 - Create art for displays
   - Something for Spotify
   - Something for caps lock, num lock, etc.
- - Create firmware
