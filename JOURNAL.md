@@ -4,7 +4,7 @@ author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
 ---
 
-**Total time spent thus far: 41h**
+**Total time spent thus far: 48h**
 
 # January: Research 
 
@@ -52,7 +52,7 @@ description: "Simple Keyboard with OLED screen"
 - Readme updated
 **Total time spent: 2h**
 
-# May 23 - xx: Firmware 
+# May 23 - 24: Firmware 
 
 - Started making firmware
   - took too long setting up QMK (like 5 hours in one day) 
@@ -60,5 +60,20 @@ description: "Simple Keyboard with OLED screen"
   - Instead im using the SN74HC165N, which uses the spi protocal which is 100x faster
   - replaced it in the PCB
 - made the keyboard layout for my keyboard in QMK
-- TODO: make a custom matrix to read from the SN74HC165N
-**Total time spent: 7h**
+May 24th:
+- Took almost 5 hours to make the keyboard work, not even including the custom matrix
+    - Not good with command-based apps, so I need to work on this in the future
+- made a custom matrix to read from the SN74HC165N
+    - TOOK A LONG TIME JUST TO LEARN HOW TO DO IT
+- made the OLED work
+- Here are some code issues that I had today:
+  - setPinOutput(MATRIX_COL_PINS[c]) failed because the macro received 21 arguments instead of 1, likely because MATRIX_COL_PINS[c] expands improperly.
+  - writePinHigh(MATRIX_COL_PINS[c]) and writePinLow(MATRIX_COL_PINS[col]) also failed due to the same macro argument issue.
+  - Macros like gpio_set_pin_output_push_pull, gpio_write_pin_high, and gpio_write_pin_low were not recognized as functions; they're macros and not meant to handle complex input.
+  - matrix_scan_change is used without declaration, leading to an implicit function declaration error.
+  - All warnings were treated as errors (-Werror flag), causing the build to fail on these issues.
+**Total time spent: 15h**
+
+# May xx - xx: Firmware Pt2:
+- TODO: Create the UI for the OLED
+
