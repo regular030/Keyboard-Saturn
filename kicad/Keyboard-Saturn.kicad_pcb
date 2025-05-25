@@ -1630,7 +1630,7 @@
 		(at 342.72 99.955)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "SW0"
+		(property "Reference" "SW80"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "1c962088-852e-45be-9178-0959f51f5ae7")
@@ -51685,7 +51685,7 @@
 		(at 88 57.12)
 		(descr "MX keyswitch PCB Mount Keycap 1.00u")
 		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
-		(property "Reference" "F2"
+		(property "Reference" "SW3"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "06181df5-999d-4adb-a62a-05d7ba153733")

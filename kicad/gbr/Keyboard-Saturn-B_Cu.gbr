@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
-%TF.CreationDate,2025-05-24T13:04:27-04:00*%
+%TF.CreationDate,2025-05-24T22:33:41-04:00*%
 %TF.ProjectId,Keyboard-Saturn,4b657962-6f61-4726-942d-53617475726e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2025-05-24 13:04:27*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2025-05-24 22:33:41*
 %MOMM*%
 %LPD*%
 G01*
@@ -88,10 +88,10 @@ X112750000Y-97420000D03*
 %TO.N,Net-(D32-A)*%
 X119100000Y-94880000D03*
 %TD*%
-%TO.P,SW0,1,1*%
+%TO.P,SW80,1,1*%
 %TO.N,col 16*%
 X338910000Y-97415000D03*
-%TO.P,SW0,2,2*%
+%TO.P,SW80,2,2*%
 %TO.N,Net-(D80-A)*%
 X345260000Y-94875000D03*
 %TD*%
@@ -1552,10 +1552,10 @@ X148595000Y-154535000D03*
 %TO.N,Net-(D70-A)*%
 X154945000Y-151995000D03*
 %TD*%
-%TO.P,F2,1,1*%
+%TO.P,SW3,1,1*%
 %TO.N,col 3*%
 X84190000Y-54580000D03*
-%TO.P,F2,2,2*%
+%TO.P,SW3,2,2*%
 %TO.N,Net-(D3-A)*%
 X90540000Y-52040000D03*
 %TD*%

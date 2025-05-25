@@ -7627,7 +7627,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_CAPS_LOCK"
 			(at 52.07 201.93 0)
 			(effects
 				(font
@@ -7783,7 +7783,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_7"
 			(at 173.99 149.86 0)
 			(effects
 				(font
@@ -7939,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F"
 			(at 121.92 201.93 0)
 			(effects
 				(font
@@ -8095,7 +8095,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_RIGHT"
 			(at 384.81 227.33 0)
 			(effects
 				(font
@@ -8163,7 +8163,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_6"
 			(at 468.63 175.26 0)
 			(effects
 				(font
@@ -8407,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_GRAVE"
 			(at 52.07 149.86 0)
 			(effects
 				(font
@@ -8475,7 +8475,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_9"
 			(at 468.63 149.86 0)
 			(effects
 				(font
@@ -8543,7 +8543,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_COMMA"
 			(at 191.77 227.33 0)
 			(effects
 				(font
@@ -8601,7 +8601,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17ba42b1-cf70-45df-a19d-79fdecd3a015")
 		(property "Reference" "SW1"
 			(at 52.07 115.57 0)
@@ -8611,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_ESCAPE"
 			(at 52.07 118.11 0)
 			(effects
 				(font
@@ -8767,7 +8766,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F11"
 			(at 243.84 118.11 0)
 			(effects
 				(font
@@ -8923,7 +8922,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_6"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -9342,7 +9341,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_RIGHT_ALT"
 			(at 191.77 264.16 0)
 			(effects
 				(font
@@ -9410,7 +9409,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_SEMICOLON"
 			(at 226.06 201.93 0)
 			(effects
 				(font
@@ -9565,7 +9564,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_H"
 			(at 156.21 201.93 0)
 			(effects
 				(font
@@ -9721,7 +9720,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F1"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -10141,7 +10140,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT_CTRL"
 			(at 52.07 264.16 0)
 			(effects
 				(font
@@ -10209,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT_SHIFT"
 			(at 52.07 227.33 0)
 			(effects
 				(font
@@ -10343,7 +10342,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_NUM_LOCK"
 			(at 433.07 118.11 0)
 			(effects
 				(font
@@ -10411,7 +10410,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F5"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -10479,7 +10478,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_PAGE_DOWN"
 			(at 384.81 175.26 0)
 			(effects
 				(font
@@ -10547,7 +10546,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT"
 			(at 349.25 227.33 0)
 			(effects
 				(font
@@ -10791,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_5"
 			(at 450.85 175.26 0)
 			(effects
 				(font
@@ -10859,7 +10858,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_C"
 			(at 104.14 227.33 0)
 			(effects
 				(font
@@ -10994,7 +10993,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT_ALT"
 			(at 86.36 264.16 0)
 			(effects
 				(font
@@ -11062,7 +11061,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_PRINT_SCREEN"
 			(at 349.25 118.11 0)
 			(effects
 				(font
@@ -11393,7 +11392,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F3"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -11461,7 +11460,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_Q"
 			(at 69.85 175.26 0)
 			(effects
 				(font
@@ -11617,7 +11616,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_BACKSLASH"
 			(at 285.75 175.26 0)
 			(effects
 				(font
@@ -11685,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT_GUI"
 			(at 69.85 264.16 0)
 			(effects
 				(font
@@ -11841,7 +11840,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F8"
 			(at 191.77 118.11 0)
 			(effects
 				(font
@@ -11909,7 +11908,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_J"
 			(at 173.99 201.93 0)
 			(effects
 				(font
@@ -12593,7 +12592,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_O"
 			(at 209.55 175.26 0)
 			(effects
 				(font
@@ -12661,7 +12660,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F6"
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -13081,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_0"
 			(at 433.07 227.33 0)
 			(effects
 				(font
@@ -13149,7 +13148,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_X"
 			(at 86.36 227.33 0)
 			(effects
 				(font
@@ -13282,7 +13281,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_RIGHT_GUI"
 			(at 226.06 264.16 0)
 			(effects
 				(font
@@ -13350,7 +13349,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_I"
 			(at 191.77 175.26 0)
 			(effects
 				(font
@@ -13506,7 +13505,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_8"
 			(at 450.85 149.86 0)
 			(effects
 				(font
@@ -13574,7 +13573,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_UP"
 			(at 367.03 201.93 0)
 			(effects
 				(font
@@ -13642,7 +13641,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_DELETE"
 			(at 349.25 175.26 0)
 			(effects
 				(font
@@ -13710,7 +13709,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_APPLICATION"
 			(at 209.55 264.16 0)
 			(effects
 				(font
@@ -13778,7 +13777,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_M"
 			(at 173.99 227.33 0)
 			(effects
 				(font
@@ -13934,7 +13933,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F4"
 			(at 121.92 118.11 0)
 			(effects
 				(font
@@ -14178,7 +14177,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_E"
 			(at 104.14 175.26 0)
 			(effects
 				(font
@@ -14246,7 +14245,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_Y"
 			(at 156.21 175.26 0)
 			(effects
 				(font
@@ -14314,7 +14313,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F7"
 			(at 173.99 118.11 0)
 			(effects
 				(font
@@ -14558,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_DOWN"
 			(at 367.03 227.33 0)
 			(effects
 				(font
@@ -14626,7 +14625,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F10"
 			(at 226.06 118.11 0)
 			(effects
 				(font
@@ -15479,7 +15478,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_7"
 			(at 433.07 149.86 0)
 			(effects
 				(font
@@ -15547,7 +15546,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_PLUS"
 			(at 486.41 149.86 0)
 			(effects
 				(font
@@ -16055,7 +16054,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_U"
 			(at 173.99 175.26 0)
 			(effects
 				(font
@@ -16123,7 +16122,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_TAB"
 			(at 52.07 175.26 0)
 			(effects
 				(font
@@ -16191,7 +16190,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_S"
 			(at 86.36 201.93 0)
 			(effects
 				(font
@@ -16259,7 +16258,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_DOT"
 			(at 209.55 227.33 0)
 			(effects
 				(font
@@ -16327,7 +16326,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_T"
 			(at 139.7 175.26 0)
 			(effects
 				(font
@@ -16395,7 +16394,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_8"
 			(at 191.77 149.86 0)
 			(effects
 				(font
@@ -16455,7 +16454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85d1b16b-fdb7-474f-b0a1-cbdf3df19db0")
-		(property "Reference" "F2"
+		(property "Reference" "SW3"
 			(at 86.36 115.57 0)
 			(effects
 				(font
@@ -16463,7 +16462,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F2"
 			(at 86.36 118.11 0)
 			(effects
 				(font
@@ -16507,7 +16506,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "F2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -16618,7 +16617,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_9"
 			(at 209.55 149.86 0)
 			(effects
 				(font
@@ -16686,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_G"
 			(at 139.7 201.93 0)
 			(effects
 				(font
@@ -17186,7 +17185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91109b8c-e5eb-4c46-bce9-70ce522548e7")
-		(property "Reference" "SW0"
+		(property "Reference" "SW80"
 			(at 367.03 172.72 0)
 			(effects
 				(font
@@ -17194,7 +17193,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_END"
 			(at 367.03 175.26 0)
 			(effects
 				(font
@@ -17238,7 +17237,7 @@
 		(instances
 			(project "Keyboard-Saturn"
 				(path "/fd311548-8014-4414-bdc8-b02dd63d9d7f"
-					(reference "SW0")
+					(reference "SW80")
 					(unit 1)
 				)
 			)
@@ -17262,7 +17261,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_BACKSPACE"
 			(at 285.75 149.86 0)
 			(effects
 				(font
@@ -17418,7 +17417,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_SLASH"
 			(at 450.85 118.11 0)
 			(effects
 				(font
@@ -17486,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_B"
 			(at 139.7 227.33 0)
 			(effects
 				(font
@@ -17554,7 +17553,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_2"
 			(at 450.85 201.93 0)
 			(effects
 				(font
@@ -17780,7 +17779,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_ENTER"
 			(at 486.41 201.93 0)
 			(effects
 				(font
@@ -17848,7 +17847,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_4"
 			(at 121.92 149.86 0)
 			(effects
 				(font
@@ -18091,7 +18090,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F12"
 			(at 261.62 118.11 0)
 			(effects
 				(font
@@ -18159,7 +18158,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_ENTER"
 			(at 285.75 201.93 0)
 			(effects
 				(font
@@ -18315,7 +18314,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_QUOTE"
 			(at 243.84 201.93 0)
 			(effects
 				(font
@@ -18383,7 +18382,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_N"
 			(at 156.21 227.33 0)
 			(effects
 				(font
@@ -18451,7 +18450,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_LEFT_BRACKET"
 			(at 243.84 175.26 0)
 			(effects
 				(font
@@ -18783,7 +18782,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_5"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -18939,7 +18938,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_MINUS"
 			(at 486.41 118.11 0)
 			(effects
 				(font
@@ -19007,7 +19006,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_3"
 			(at 468.63 201.93 0)
 			(effects
 				(font
@@ -19075,7 +19074,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_P"
 			(at 226.06 175.26 0)
 			(effects
 				(font
@@ -19231,7 +19230,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_EQUAL"
 			(at 261.62 149.86 0)
 			(effects
 				(font
@@ -19475,7 +19474,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_DOT"
 			(at 468.63 227.33 0)
 			(effects
 				(font
@@ -19701,7 +19700,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_SCROLL_LOCK"
 			(at 367.03 118.11 0)
 			(effects
 				(font
@@ -19769,7 +19768,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_MINUS"
 			(at 243.84 149.86 0)
 			(effects
 				(font
@@ -19837,7 +19836,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_K"
 			(at 191.77 201.93 0)
 			(effects
 				(font
@@ -20184,7 +20183,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_V"
 			(at 121.92 227.33 0)
 			(effects
 				(font
@@ -20340,7 +20339,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_0"
 			(at 226.06 149.86 0)
 			(effects
 				(font
@@ -20496,7 +20495,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_2"
 			(at 86.36 149.86 0)
 			(effects
 				(font
@@ -20631,7 +20630,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_SPACE"
 			(at 134.62 264.16 0)
 			(effects
 				(font
@@ -20699,7 +20698,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_PAGE_UP"
 			(at 384.81 149.86 0)
 			(effects
 				(font
@@ -20767,7 +20766,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_RIGHT_CTRL"
 			(at 285.75 264.16 0)
 			(effects
 				(font
@@ -21011,7 +21010,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_PAUSE"
 			(at 384.81 118.11 0)
 			(effects
 				(font
@@ -21167,7 +21166,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_1"
 			(at 433.07 201.93 0)
 			(effects
 				(font
@@ -21323,7 +21322,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_ASTERISK"
 			(at 468.63 118.11 0)
 			(effects
 				(font
@@ -21391,7 +21390,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_W"
 			(at 86.36 175.26 0)
 			(effects
 				(font
@@ -21459,7 +21458,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_1"
 			(at 69.85 149.86 0)
 			(effects
 				(font
@@ -21878,7 +21877,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_SLASH"
 			(at 226.06 227.33 0)
 			(effects
 				(font
@@ -22012,7 +22011,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_RIGHT_SHIFT"
 			(at 285.75 227.33 0)
 			(effects
 				(font
@@ -22168,7 +22167,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_R"
 			(at 121.92 175.26 0)
 			(effects
 				(font
@@ -22236,7 +22235,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_INSERT"
 			(at 349.25 149.86 0)
 			(effects
 				(font
@@ -22568,7 +22567,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_HOME"
 			(at 367.03 149.86 0)
 			(effects
 				(font
@@ -22974,7 +22973,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_L"
 			(at 209.55 201.93 0)
 			(effects
 				(font
@@ -23394,7 +23393,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_F9"
 			(at 209.55 118.11 0)
 			(effects
 				(font
@@ -23726,7 +23725,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_A"
 			(at 69.85 201.93 0)
 			(effects
 				(font
@@ -23794,7 +23793,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_KP_4"
 			(at 433.07 175.26 0)
 			(effects
 				(font
@@ -23862,7 +23861,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_Z"
 			(at 69.85 227.33 0)
 			(effects
 				(font
@@ -23930,7 +23929,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_3"
 			(at 104.14 149.86 0)
 			(effects
 				(font
@@ -23988,7 +23987,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7b27306-3884-4e57-b6b7-11914a63f7a6")
 		(property "Reference" "SW40"
 			(at 261.62 172.72 0)
@@ -23998,8 +23996,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 261.62 175.26 0)
+		(property "Value" "KC_RIGHT_BRACKET"
+			(at 264.16 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24242,7 +24240,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "KC_D"
 			(at 104.14 201.93 0)
 			(effects
 				(font
