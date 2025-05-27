@@ -28,6 +28,8 @@ kicad
 - All the KiCad 8.0.5 files for the project 
 
 **BOM:**
+![image](https://github.com/user-attachments/assets/a35f7da6-fe0e-4e34-8838-6514a90f6257)
+
 https://docs.google.com/spreadsheets/d/1oLEcZ3zztSK3hqa6-qvamrNF2S6u_cLABAHxks2xx3M/edit?usp=sharing
 
 **TODO:**
