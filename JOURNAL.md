@@ -77,6 +77,7 @@ May 24th:
 # May 28: Created Palm Rest:
 - Created a palm rest on the keyboard
 - Added the 3mf file for the print
+  
 ![image](https://github.com/user-attachments/assets/616e0d81-1ba8-40f6-bf83-d6d838a4c051)
 **Total time spent: 2h**
 
