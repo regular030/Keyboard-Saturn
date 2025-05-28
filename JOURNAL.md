@@ -77,7 +77,6 @@ May 24th:
 # May 28: Created Palm Rest:
 - Created a palm rest on the keyboard
 - Added the 3mf file for the print
-- Added white matte PLA to the BOM
 **Total time spent: 2h**
 
 # May xx - xx: Firmware Pt2:
