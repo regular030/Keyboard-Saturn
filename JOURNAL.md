@@ -4,7 +4,7 @@ author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
 ---
 
-**Total time spent thus far: 48h**
+**Total time spent thus far: 50h**
 
 # January: Research 
 
@@ -73,6 +73,13 @@ May 24th:
   - matrix_scan_change is used without declaration, leading to an implicit function declaration error.
   - All warnings were treated as errors (-Werror flag), causing the build to fail on these issues.
 **Total time spent: 15h**
+
+# May 28: Created Palm Rest:
+- Created a palm rest on the keyboard
+- Added the 3mf file for the print
+  
+![image](https://github.com/user-attachments/assets/616e0d81-1ba8-40f6-bf83-d6d838a4c051)
+**Total time spent: 2h**
 
 # May xx - xx: Firmware Pt2:
 - TODO: Create the UI for the OLED
