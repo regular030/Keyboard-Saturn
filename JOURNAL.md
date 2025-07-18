@@ -4,7 +4,7 @@ author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
 ---
 
-**Total time spent thus far: 50h**
+**Total time spent thus far: 70h**
 
 # January: Research 
 
@@ -81,6 +81,47 @@ May 24th:
 ![image](https://github.com/user-attachments/assets/616e0d81-1ba8-40f6-bf83-d6d838a4c051)
 **Total time spent: 2h**
 
-# May xx - xx: Firmware Pt2:
-- TODO: Create the UI for the OLED
+# July 1–18: OLED Debugging & Firmware Migration (QMK → Arduino)
 
+**Total time spent: ~20h**
+
+Matrix Ghosting & Pull-Down Resistor Fix
+
+- Began debugging ghosting issues in the keyboard matrix — noticed that random key presses were being registered without input.
+- Discovered I had forgotten to add 10k pull-down resistors to the inputs of the SN74HC165N shift registers.
+- This caused the lines to float, resulting in unpredictable input states.
+- Therefore, I had to add a delay in code, resulting in a ~700ms delay (around 70x slower than a normal keyboard)
+
+SoftI2C and RP2040 Pin Constraints
+
+- Realized that the OLED was connected to non-native I2C pins (e.g., GPIO 22, 28) on the RP2040.
+- Switched to using SoftI2C to bit-bang I2C over any pins.
+- With SoftI2C, successfully scanned and detected the OLED at address 0x3C.
+
+OLED Font Rendering
+
+- Created a simple text rendering function to write characters pixel-by-pixel on the OLED.
+- Initially, embedded all font bitmaps directly in the .ino file.
+- Later refactored by moving font data into a dedicated .h file for clarity and reuse.
+
+Migrating from QMK to Arduino IDE
+
+- QMK was becoming too complex to support:
+  - SPI reads from SN74HC165N
+  - SoftI2C for OLED
+  - Custom wiring constraints
+- Fully **migrated to Arduino IDE**, which provided:
+  - Lower-level hardware access
+  - Simplified debugging with Serial.print()
+  - Better development velocity for custom hardware
+
+Hardware Rework: 3.3V Connection Fix
+
+- Final keyboard assembly showed no power to the RP2040 MCU.
+- Diagnosed the issue and found that the 3.3V line wasn’t connected to the MCU.
+- Board was already fully soldered — had to use jumper wires to connect 3.3V to the correct pin on the MCU manually.
+- After rework, the SN74HC165N and OLED powered up correctly.
+
+
+
+# THIS PROJECT IS NOW DEPRECATED. IT WILL NOT BE GETTING ANY MORE SUPPORT. V2 is a possibility
