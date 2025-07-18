@@ -1,26 +1,93 @@
+#include <SoftI2C.h>
 #include <Arduino.h>
 #include <Keyboard.h>
+#include "font5x7.h"  // Your separate font header with font5x7 array
 
-// —— CONFIG ——
+#define SDA_PIN 22
+#define SCL_PIN 28
+
+SoftI2C SoftWire(SDA_PIN, SCL_PIN);
+
+#define OLED_ADDR 0x3C
+
+// OLED command and data functions (same as before)
+void oled_command(uint8_t cmd) {
+  SoftWire.beginTransmission(OLED_ADDR);
+  SoftWire.write(0x00); // command mode
+  SoftWire.write(cmd);
+  SoftWire.endTransmission();
+}
+
+void oled_data(uint8_t *data, size_t len) {
+  SoftWire.beginTransmission(OLED_ADDR);
+  SoftWire.write(0x40); // data mode
+  for (size_t i=0; i<len; i++) SoftWire.write(data[i]);
+  SoftWire.endTransmission();
+}
+
+void oled_init() {
+  oled_command(0xAE); oled_command(0xD5); oled_command(0x80);
+  oled_command(0xA8); oled_command(0x1F);
+  oled_command(0xD3); oled_command(0x00);
+  oled_command(0x40);
+  oled_command(0x8D); oled_command(0x14);
+  oled_command(0x20); oled_command(0x00);
+  oled_command(0xA1); oled_command(0xC8);
+  oled_command(0xDA); oled_command(0x02);
+  oled_command(0x81); oled_command(0x8F);
+  oled_command(0xD9); oled_command(0xF1);
+  oled_command(0xDB); oled_command(0x40);
+  oled_command(0xA4); oled_command(0xA6);
+  oled_command(0xAF);
+}
+
+void oled_clear() {
+  uint8_t zero[128] = {0};
+  for (uint8_t page=0; page<4; page++) {
+    oled_command(0xB0 + page);
+    oled_command(0x00);
+    oled_command(0x10);
+    oled_data(zero, 128);
+  }
+}
+
+// Draw one character at (page, col)
+void oled_draw_char(char c, uint8_t page, uint8_t col) {
+  if (c < 32 || c > 126) c = '?';
+  const uint8_t* bitmap = font5x7[c - 32];
+  oled_command(0xB0 + page);
+  oled_command(0x00 + (col & 0x0F));
+  oled_command(0x10 + ((col >> 4) & 0x0F));
+  uint8_t buf[6];
+  memcpy(buf, bitmap, 5);
+  buf[5] = 0x00;
+  oled_data(buf, 6);
+}
+
+// Draw string starting at page and column
+void oled_draw_string(const char* str, uint8_t page, uint8_t col) {
+  while (*str && col < 128 - 6) {
+    oled_draw_char(*str++, page, col);
+    col += 6;
+  }
+}
+
+// Keyboard matrix definitions
 #define DEBUG_MODE false
 
-// —— MATRIX DIMENSIONS ——
 const uint8_t ROWS = 6;
 const uint8_t COLS = 21;
 
-// —— COLUMN PINS ——
 const uint8_t colPins[COLS] = {
    1,  2,  3,  4,  5,  6,  7,
    8,  9, 10, 11, 12, 13, 14,
   15, 16, 17, 18, 19, 20, 21
 };
 
-// —— SN74HC165 PINS ——
 #define SN_LOAD_PIN  0
 #define SN_CLK_PIN   26
 #define SN_DATA_PIN  27
 
-// —— KEYMAP ——
 const char* keymap[ROWS][COLS] = {
   {"ESC", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "____", "PSCR", "SLCK", "PAUS", "NUM", "NP_/", "NP_*", "NP_-"},
   {"`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "-", "=", "BSPC", "INS", "HOME", "PGUP", "NP_7", "NP_8", "NP_9", "NP_+"},
@@ -30,7 +97,6 @@ const char* keymap[ROWS][COLS] = {
   {"LCTRL", "LGUI", "LALT", "____", "____", "SPACE", "____", "____", "RALT", "MENU", "RGUI", "____", "____", "RCTRL", "____", "____", "____", "____", "____", "____"}
 };
 
-// —— SHIFTED SYMBOLS ——
 char getShiftedSymbol(char key) {
   switch (key) {
     case '1': return '!';
@@ -61,7 +127,6 @@ char getShiftedSymbol(char key) {
 bool capsLockActive = false;
 bool shiftActive = false;
 
-// —— Key Label → KeyCode ——
 uint8_t getKeyCode(const char* label, bool& useShift) {
   useShift = false;
 
@@ -79,7 +144,6 @@ uint8_t getKeyCode(const char* label, bool& useShift) {
   if (strlen(label) == 1) {
     char ch = label[0];
 
-    // Handle letters
     if (ch >= 'a' && ch <= 'z') {
       if ((capsLockActive && !shiftActive) || (!capsLockActive && shiftActive)) {
         useShift = true;
@@ -87,7 +151,6 @@ uint8_t getKeyCode(const char* label, bool& useShift) {
       return tolower(ch);
     }
 
-    // Handle shifted symbols
     char shifted = getShiftedSymbol(ch);
     if (shifted != 0 && shiftActive) {
       useShift = true;
@@ -100,7 +163,6 @@ uint8_t getKeyCode(const char* label, bool& useShift) {
   return 0;
 }
 
-// —— Read SN74HC165 ——
 uint8_t readRows() {
   digitalWrite(SN_LOAD_PIN, LOW);
   delayMicroseconds(3);
@@ -120,10 +182,15 @@ uint8_t readRows() {
   return data;
 }
 
-// —— Setup ——
 void setup() {
   Serial.begin(115200);
   Keyboard.begin();
+
+  SoftWire.begin();
+
+  oled_init();
+  oled_clear();
+  oled_draw_string("Ready...", 1, 0);
 
   for (uint8_t c = 0; c < COLS; c++) {
     pinMode(colPins[c], OUTPUT);
@@ -140,9 +207,8 @@ void setup() {
   Serial.println("Matrix scanner initialized.");
 }
 
-// —— Main Loop ——
 void loop() {
-  bool rowDetected[8] = {false};
+  static bool rowDetected[8] = {false};
 
   for (uint8_t col = 0; col < COLS; col++) {
     for (uint8_t c = 0; c < COLS; c++) digitalWrite(colPins[c], LOW);
@@ -191,7 +257,15 @@ void loop() {
           }
 
           shiftActive = false;
+
+          // Display pressed key on OLED
+          oled_clear();
+          oled_draw_string(label, 1, 0);
         }
+      }
+      else if (!isPressed) {
+        // Reset detection for that row so next press can be detected
+        rowDetected[bit] = false;
       }
     }
   }
