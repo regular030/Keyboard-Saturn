@@ -1,4 +1,3 @@
----
 title: "Keyboard Saturn"
 author: "Kunshpreet"
 description: "Simple Keyboard with OLED screen"
@@ -84,6 +83,8 @@ May 24th:
 # July 1–18: OLED Debugging & Firmware Migration (QMK → Arduino)
 
 **Total time spent: ~20h**
+![IMG_3415](https://github.com/user-attachments/assets/fe954f65-72ab-4fc9-848f-3bb220beba4d)
+![IMG_3418](https://github.com/user-attachments/assets/61bd28df-3dab-4719-9f9f-ea74060ddefd)
 
 Matrix Ghosting & Pull-Down Resistor Fix
 
